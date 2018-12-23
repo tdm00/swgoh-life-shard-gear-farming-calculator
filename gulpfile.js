@@ -21,7 +21,9 @@ gulp.task('default', function() {
     .pipe(gulp.dest('build'));
   var componentData = fs.readFileSync("build/component-data.json", "utf8");
   var gearData = fs.readFileSync("build/gear-data.json", "utf8");
+  var characterData = fs.readFileSync("characters.html", "utf8");
   gulp.src(['./farming.html'])
+    .pipe(replace('$CHARACTERS', characterData))
     .pipe(replace('$MYCOMPONENTS', componentData))
     .pipe(replace('$MYGEAR', gearData))
     .pipe(gulp.dest('./build/'));
