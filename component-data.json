@@ -772,7 +772,7 @@
   "mk-12-armatek-stun-gun-component" : {
     "ing1" : "mk-8-nubian-security-scanner",
     "ing1_mult" : 2,
-    "ing2" : "mk-5-akt-stun-gun",
+    "ing2" : "mk-5-akt-stun-gun-prototype",
     "ing2_mult" : 1,
     "ing3" : "",
     "ing3_mult" : 0,
