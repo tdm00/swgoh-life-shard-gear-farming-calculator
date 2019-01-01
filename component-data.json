@@ -835,6 +835,50 @@
     "ing4_mult" : 0,
     "title" : "Mk 12 ArmaTek Tactical Data Prototype Salvage"
   },
+  "mk-12-armatek-thermal-detonator" : {
+    "ing1" : "mk-12-armatek-thermal-detonator-prototype",
+    "ing1_mult" : 1,
+    "ing2" : "mk-12-czerka-sensor-array-prototype",
+    "ing2_mult" : 2,
+    "ing3" : "mk-12-armatek-thermal-detonator-component",
+    "ing3_mult" : 1,
+    "ing4" : "",
+    "ing4_mult" : 0,
+    "title" : "Mk 12 ArmaTek Thermal Detonator"
+  },
+  "mk-12-armatek-thermal-detonator-component" : {
+    "ing1" : "mk-6-athakam-medpac",
+    "ing1_mult" : 2,
+    "ing2" : "mk-3-carbanti-sensor-array",
+    "ing2_mult" : 1,
+    "ing3" : "",
+    "ing3_mult" : 0,
+    "ing4" : "",
+    "ing4_mult" : 0,
+    "title" : "Mk 12 ArmaTek Thermal Detonator Component"
+  },
+  "mk-12-armatek-thermal-detonator-prototype" : {
+    "ing1" : "mk-12-armatek-thermal-detonator-prototype-salvage",
+    "ing1_mult" : 50,
+    "ing2" : "",
+    "ing2_mult" : 0,
+    "ing3" : "",
+    "ing3_mult" : 0,
+    "ing4" : "",
+    "ing4_mult" : 0,
+    "title" : "Mk 12 ArmaTek Thermal Detonator Prototype"
+  },
+  "mk-12-armatek-thermal-detonator-prototype-salvage" : {
+    "ing1" : "",
+    "ing1_mult" : 0,
+    "ing2" : "",
+    "ing2_mult" : 0,
+    "ing3" : "",
+    "ing3_mult" : 0,
+    "ing4" : "",
+    "ing4_mult" : 0,
+    "title" : "Mk 12 ArmaTek Thermal Detonator Prototype Salvage"
+  },
   "mk-12-armatek-visor" : {
     "ing1" : "mk-12-armatek-visor-prototype",
     "ing1_mult" : 1,
@@ -955,6 +999,28 @@
     "ing4" : "",
     "ing4_mult" : 0,
     "title" : "Mk 12 Czerka Implant Prototype Salvage"
+  },
+  "mk-12-czerka-sensor-array-prototype" : {
+    "ing1" : "mk-12-czerka-sensor-array-prototype-salvage",
+    "ing1_mult" : 20,
+    "ing2" : "",
+    "ing2_mult" : 0,
+    "ing3" : "",
+    "ing3_mult" : 0,
+    "ing4" : "",
+    "ing4_mult" : 0,
+    "title" : "Mk 12 Czerka Sensor Array Prototype"
+  },
+  "mk-12-czerka-sensor-array-prototype-salvage" : {
+    "ing1" : "",
+    "ing1_mult" : 0,
+    "ing2" : "",
+    "ing2_mult" : 0,
+    "ing3" : "",
+    "ing3_mult" : 0,
+    "ing4" : "",
+    "ing4_mult" : 0,
+    "title" : "Mk 12 Czerka Sensor Array Prototype Salvage"
   },
   "mk-12-czerka-shield-generator-prototype" : {
     "ing1" : "mk-12-czerka-stun-cuffs-prototype-salvage",
@@ -3189,17 +3255,6 @@
     "ing4_mult" : 0,
     "title" : "Mk 7 CEC Fusion Furnace Salvage"
   },
-  "mk-7-fabritech-data-pad" : {
-    "ing1" : "mk-5-blastech-weapon-mod",
-    "ing1_mult" : 2,
-    "ing2" : "",
-    "ing2_mult" : 0,
-    "ing3" : "",
-    "ing3_mult" : 0,
-    "ing4" : "",
-    "ing4_mult" : 0,
-    "title" : "Mk 7 Fabritech Data Pad"
-  },
   "mk-7-chiewab-hypo-syringe" : {
     "ing1" : "mk-7-chiewab-hypo-syringe-salvage",
     "ing1_mult" : 20,
@@ -3221,6 +3276,17 @@
     "ing4" : "",
     "ing4_mult" : 0,
     "title" : "Mk 7 Chiewab Hypo Syringe Salvage"
+  },
+  "mk-7-fabritech-data-pad" : {
+    "ing1" : "mk-5-blastech-weapon-mod",
+    "ing1_mult" : 2,
+    "ing2" : "",
+    "ing2_mult" : 0,
+    "ing3" : "",
+    "ing3_mult" : 0,
+    "ing4" : "",
+    "ing4_mult" : 0,
+    "title" : "Mk 7 Fabritech Data Pad"
   },
   "mk-7-loronar-power-cell" : {
     "ing1" : "mk-2-merr-sonn-thermal-detonator",
