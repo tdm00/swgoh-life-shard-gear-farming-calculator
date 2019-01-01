@@ -24,3 +24,13 @@ serve
 ```
 
 You can then open your web browser to the address and port number listed and browse to the build directory and farming.html file
+
+### Sort JSON Files
+
+A handy way to sort the JSON files to be in alphabetical order is using the [jq](https://stedolan.github.io/jq/) utility
+
+```
+cat component-data.json | jq -S '.' > component-data-sorted.json
+rm component-data.json
+mv component-data-sorted.json component-data.json
+```
