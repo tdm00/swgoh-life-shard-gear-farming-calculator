@@ -33,4 +33,7 @@ A handy way to sort the JSON files to be in alphabetical order is using the [jq]
 cat component-data.json | jq -S '.' > component-data-sorted.json
 rm component-data.json
 mv component-data-sorted.json component-data.json
+cat gear-data.json | jq -S '.' > gear-data-sorted.json
+rm gear-data.json
+mv gear-data-sorted.json gear-data.json
 ```
