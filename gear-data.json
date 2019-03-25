@@ -3919,6 +3919,104 @@
       "mk-3-chiewab-hypo-syringe"
     ]
   },
+  "darth-revan": {
+    "1": [
+      "mk-1-biotech-implant",
+      "mk-1-neuro-saav-electrobinoculars",
+      "mk-2-nubian-security-scanner",
+      "mk-1-biotech-implant",
+      "mk-1-cec-fusion-furnace",
+      "mk-1-cec-fusion-furnace"
+    ],
+    "10": [
+      "mk-6-cec-fusion-furnace",
+      "mk-5-athakam-medpac",
+      "mk-8-biotech-implant",
+      "mk-7-merr-sonn-shield-generator",
+      "mk-5-akt-stun-gun",
+      "mk-8-biotech-implant"
+    ],
+    "11": [
+      "mk-5-athakam-medpac",
+      "mk-8-loronar-power-cell",
+      "mk-8-loronar-power-cell",
+      "mk-8-biotech-implant",
+      "mk-6-merr-sonn-thermal-detonator",
+      "mk-8-biotech-implant"
+    ],
+    "12": [
+      "mk-12-armatek-tactical-data",
+      "mk-12-armatek-armor-plating",
+      "mk-12-armatek-visor",
+      "mk-12-armatek-data-pad",
+      "mk-12-armatek-data-pad",
+      "unknown-gear"
+    ],
+    "2": [
+      "mk-3-neuro-saav-electrobinoculars",
+      "mk-2-arakyd-droid-caller",
+      "mk-1-merr-sonn-shield-generator",
+      "mk-3-taggeco-holo-lens",
+      "mk-1-czerka-stun-cuffs",
+      "mk-2-sorosuub-keypad"
+    ],
+    "3": [
+      "mk-3-akt-stun-gun",
+      "mk-4-merr-sonn-shield-generator",
+      "mk-3-blastech-weapon-mod",
+      "mk-4-baw-armor-mod",
+      "mk-5-loronar-power-cell",
+      "mk-3-baw-armor-mod"
+    ],
+    "4": [
+      "mk-5-merr-sonn-shield-generator",
+      "mk-4-nubian-design-tech",
+      "mk-7-blastech-weapon-mod",
+      "mk-5-loronar-power-cell",
+      "mk-6-loronar-power-cell",
+      "mk-3-chiewab-hypo-syringe"
+    ],
+    "5": [
+      "mk-7-loronar-power-cell",
+      "mk-1-zaltin-bacta-gel",
+      "mk-7-baw-armor-mod",
+      "mk-4-fabritech-data-pad",
+      "mk-3-chiewab-hypo-syringe",
+      "mk-4-nubian-design-tech"
+    ],
+    "6": [
+      "mk-5-nubian-design-tech",
+      "mk-7-neuro-saav-electrobinoculars",
+      "mk-4-akt-stun-gun",
+      "mk-7-loronar-power-cell",
+      "mk-4-nubian-design-tech",
+      "mk-3-sienar-holo-projector"
+    ],
+    "7": [
+      "mk-6-chiewab-hypo-syringe",
+      "mk-6-chiewab-hypo-syringe",
+      "mk-6-merr-sonn-shield-generator",
+      "mk-4-fabritech-data-pad",
+      "mk-4-nubian-design-tech",
+      "mk-7-blastech-weapon-mod"
+    ],
+    "8": [
+      "mk-5-arakyd-droid-caller",
+      "mk-5-akt-stun-gun",
+      "mk-7-kyrotech-shock-prod",
+      "mk-3-carbanti-sensor-array",
+      "mk-7-neuro-saav-electrobinoculars",
+      "mk-8-taggeco-holo-lens"
+    ],
+    "9": [
+      "mk-5-carbanti-sensor-array",
+      "mk-9-kyrotech-battle-computer",
+      "mk-7-nubian-security-scanner",
+      "mk-5-akt-stun-gun",
+      "mk-7-loronar-power-cell",
+      "mk-3-sienar-holo-projector"
+    ]
+  },
   "darth-sidious": {
     "1": [
       "mk-1-neuro-saav-electrobinoculars",

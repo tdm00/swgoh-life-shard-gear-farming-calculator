@@ -3354,6 +3354,39 @@
     "ing4_mult": 0,
     "title": "Mk 7 Fabritech Data Pad"
   },
+  "mk-7-kyrotech-shock-prod": {
+    "ing1": "mk-7-kyrotech-shock-prod-prototype",
+    "ing1_mult": 1,
+    "ing2": "mk-9-kyrotech-battle-computer-prototype",
+    "ing2_mult": 1,
+    "ing3": "",
+    "ing3_mult": 0,
+    "ing4": "",
+    "ing4_mult": 0,
+    "title": "Mk 7 Kyrotech Shock Prod"
+  },
+  "mk-7-kyrotech-shock-prod-prototype": {
+    "ing1": "mk-7-kyrotech-shock-prod-prototype-salvage",
+    "ing1_mult": 50,
+    "ing2": "",
+    "ing2_mult": 0,
+    "ing3": "",
+    "ing3_mult": 0,
+    "ing4": "",
+    "ing4_mult": 0,
+    "title": "Mk 7 Kyrotech Shock Prod Prototype"
+  },
+  "mk-7-kyrotech-shock-prod-prototype-salvage": {
+    "ing1": "",
+    "ing1_mult": 0,
+    "ing2": "",
+    "ing2_mult": 0,
+    "ing3": "",
+    "ing3_mult": 0,
+    "ing4": "",
+    "ing4_mult": 0,
+    "title": "Mk 7 Kyrotech Shock Prod Prototype Salvage"
+  },
   "mk-7-loronar-power-cell": {
     "ing1": "mk-2-merr-sonn-thermal-detonator",
     "ing1_mult": 1,
@@ -3771,6 +3804,39 @@
     "ing4": "",
     "ing4_mult": 0,
     "title": "Mk 9 Fabritech Data Pad Salvage"
+  },
+  "mk-9-kyrotech-battle-computer": {
+    "ing1": "mk-7-kyrotech-shock-prod-prototype",
+    "ing1_mult": 1,
+    "ing2": "mk-9-kyrotech-battle-computer-prototype",
+    "ing2_mult": 1,
+    "ing3": "",
+    "ing3_mult": 0,
+    "ing4": "",
+    "ing4_mult": 0,
+    "title": "Mk 9 Kyrotech Battle Computer"
+  },
+  "mk-9-kyrotech-battle-computer-prototype": {
+    "ing1": "mk-9-kyrotech-battle-computer-prototype-salvage",
+    "ing1_mult": 50,
+    "ing2": "",
+    "ing2_mult": 0,
+    "ing3": "",
+    "ing3_mult": 0,
+    "ing4": "",
+    "ing4_mult": 0,
+    "title": "Mk 9 Kyrotech Battle Computer Prototype"
+  },
+  "mk-9-kyrotech-battle-computer-prototype-salvage": {
+    "ing1": "",
+    "ing1_mult": 0,
+    "ing2": "",
+    "ing2_mult": 0,
+    "ing3": "",
+    "ing3_mult": 0,
+    "ing4": "",
+    "ing4_mult": 0,
+    "title": "Mk 9 Kyrotech Battle Computer Prototype Salvage"
   },
   "mk-9-neuro-saav-electrobinoculars": {
     "ing1": "mk-9-neuro-saav-electrobinoculars-salvage",
