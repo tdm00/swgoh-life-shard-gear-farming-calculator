@@ -3723,6 +3723,104 @@
       "mk-6-neuro-saav-electrobinoculars"
     ]
   },
+  "darth-malak": {
+    "1": [
+      "mk-1-blastech-weapon-mod",
+      "mk-1-cec-fusion-furnace",
+      "mk-1-nubian-security-scanner",
+      "mk-1-cec-fusion-furnace",
+      "mk-1-nubian-security-scanner",
+      "mk-1-neuro-saav-electrobinoculars"
+    ],
+    "10": [
+      "mk-7-biotech-implant",
+      "mk-6-merr-sonn-thermal-detonator",
+      "mk-5-akt-stun-gun",
+      "mk-8-biotech-implant",
+      "mk-9-kyrotech-battle-computer",
+      "mk-6-merr-sonn-thermal-detonator"
+    ],
+    "11": [
+      "mk-9-kyrotech-battle-computer",
+      "mk-6-akt-stun-gun",
+      "mk-6-merr-sonn-thermal-detonator",
+      "mk-6-merr-sonn-thermal-detonator",
+      "mk-4-sienar-holo-projector",
+      "mk-4-czerka-stun-cuffs"
+    ],
+    "12": [
+      "mk-12-armatek-armor-plating",
+      "mk-12-armatek-visor",
+      "mk-12-armatek-multi-tool",
+      "mk-12-armatek-stun-gun",
+      "mk-12-armatek-thermal-detonator",
+      "unknown-gear"
+    ],
+    "2": [
+      "mk-2-fabritech-data-pad",
+      "mk-3-taggeco-holo-lens",
+      "mk-1-merr-sonn-thermal-detonator",
+      "mk-1-sienar-holo-projector",
+      "mk-1-chiewab-hypo-syringe",
+      "mk-1-sienar-holo-projector"
+    ],
+    "3": [
+      "mk-4-baw-armor-mod",
+      "mk-3-merr-sonn-shield-generator",
+      "mk-3-fabritech-data-pad",
+      "mk-1-merr-sonn-thermal-detonator",
+      "mk-4-neuro-saav-electrobinoculars",
+      "mk-3-sorosuub-keypad"
+    ],
+    "4": [
+      "mk-4-fabritech-data-pad",
+      "mk-1-merr-sonn-thermal-detonator",
+      "mk-1-merr-sonn-thermal-detonator",
+      "mk-5-taggeco-holo-lens",
+      "mk-4-fabritech-data-pad",
+      "mk-6-blastech-weapon-mod"
+    ],
+    "5": [
+      "mk-6-taggeco-holo-lens",
+      "mk-4-fabritech-data-pad",
+      "mk-4-fabritech-data-pad",
+      "mk-7-fabritech-data-pad",
+      "mk-5-taggeco-holo-lens",
+      "mk-7-loronar-power-cell"
+    ],
+    "6": [
+      "mk-6-taggeco-holo-lens",
+      "mk-5-taggeco-holo-lens",
+      "mk-4-merr-sonn-thermal-detonator",
+      "mk-6-taggeco-holo-lens",
+      "mk-7-fabritech-data-pad",
+      "mk-5-taggeco-holo-lens"
+    ],
+    "7": [
+      "mk-6-blastech-weapon-mod",
+      "mk-5-taggeco-holo-lens",
+      "mk-6-taggeco-holo-lens",
+      "mk-5-taggeco-holo-lens",
+      "mk-7-taggeco-holo-lens",
+      "mk-7-taggeco-holo-lens"
+    ],
+    "8": [
+      "mk-5-taggeco-holo-lens",
+      "mk-6-biotech-implant",
+      "mk-5-taggeco-holo-lens",
+      "mk-5-nubian-security-scanner",
+      "mk-6-taggeco-holo-lens",
+      "mk-7-kyrotech-shock-prod"
+    ],
+    "9": [
+      "mk-6-nubian-security-scanner",
+      "mk-7-kyrotech-shock-prod",
+      "mk-7-nubian-security-scanner",
+      "mk-5-arakyd-droid-caller",
+      "mk-7-nubian-security-scanner",
+      "mk-9-blastech-weapon-mod"
+    ]
+  },
   "darth-maul": {
     "1": [
       "mk-1-blastech-weapon-mod",
@@ -6398,9 +6496,9 @@
       "mk-12-armatek-medpac",
       "mk-12-armatek-medpac",
       "mk-12-armatek-multi-tool",
-      "unknown-gear",
-      "unknown-gear",
-      "unknown-gear"
+      "mk-12-armatek-fusion-furnace",
+      "mk-12-armatek-fusion-furnace",
+      "mk-12-power-cell-injector-ionic"
     ],
     "2": [
       "mk-1-loronar-power-cell",
@@ -11659,6 +11757,104 @@
       "mk-3-athakam-medpac",
       "mk-7-nubian-security-scanner",
       "mk-5-carbanti-sensor-array"
+    ]
+  },
+  "padme-amidala": {
+    "1": [
+      "mk-1-neuro-saav-electrobinoculars",
+      "mk-1-akt-stun-gun",
+      "mk-1-nubian-security-scanner",
+      "mk-1-neuro-saav-electrobinoculars",
+      "mk-1-akt-stun-gun",
+      "mk-1-nubian-security-scanner"
+    ],
+    "10": [
+      "mk-7-merr-sonn-shield-generator",
+      "mk-8-biotech-implant",
+      "mk-8-biotech-implant",
+      "mk-9-kyrotech-battle-computer",
+      "mk-5-akt-stun-gun",
+      "mk-3-czerka-stun-cuffs"
+    ],
+    "11": [
+      "mk-8-biotech-implant",
+      "mk-4-carbanti-sensor-array",
+      "mk-6-merr-sonn-thermal-detonator",
+      "mk-3-czerka-stun-cuffs",
+      "mk-3-czerka-stun-cuffs",
+      "mk-6-akt-stun-gun"
+    ],
+    "12": [
+      "mk-12-armatek-multi-tool",
+      "mk-12-armatek-multi-tool",
+      "mk-12-armatek-armor-plating",
+      "mk-12-armatek-stun-gun",
+      "mk-12-armatek-holo-lens",
+      "unknown-gear"
+    ],
+    "2": [
+      "mk-1-sienar-holo-projector",
+      "mk-1-sienar-holo-projector",
+      "mk-3-baw-armor-mod",
+      "mk-2-sorosuub-keypad",
+      "mk-2-neuro-saav-electrobinoculars",
+      "mk-2-neuro-saav-electrobinoculars"
+    ],
+    "3": [
+      "mk-4-biotech-implant",
+      "mk-2-sorosuub-keypad",
+      "mk-3-baw-armor-mod",
+      "mk-3-nubian-security-scanner",
+      "mk-3-sorosuub-keypad",
+      "mk-6-blastech-weapon-mod"
+    ],
+    "4": [
+      "mk-3-nubian-security-scanner",
+      "mk-3-sorosuub-keypad",
+      "mk-2-akt-stun-gun",
+      "mk-4-nubian-security-scanner",
+      "mk-6-blastech-weapon-mod",
+      "mk-6-baw-armor-mod"
+    ],
+    "5": [
+      "mk-3-sorosuub-keypad",
+      "mk-4-nubian-security-scanner",
+      "mk-4-biotech-implant",
+      "mk-2-akt-stun-gun",
+      "mk-5-neuro-saav-electrobinoculars",
+      "mk-4-fabritech-data-pad"
+    ],
+    "6": [
+      "mk-4-merr-sonn-thermal-detonator",
+      "mk-5-sorosuub-keypad",
+      "mk-4-merr-sonn-thermal-detonator",
+      "mk-5-nubian-security-scanner",
+      "mk-5-taggeco-holo-lens",
+      "mk-2-czerka-stun-cuffs"
+    ],
+    "7": [
+      "mk-8-taggeco-holo-lens",
+      "mk-3-chedak-comlink",
+      "mk-5-nubian-security-scanner",
+      "mk-2-chedak-comlink",
+      "mk-2-zaltin-bacta-gel",
+      "mk-2-czerka-stun-cuffs"
+    ],
+    "8": [
+      "mk-7-nubian-security-scanner",
+      "mk-7-blastech-weapon-mod",
+      "mk-5-akt-stun-gun",
+      "mk-7-kyrotech-shock-prod",
+      "mk-7-taggeco-holo-lens",
+      "mk-2-zaltin-bacta-gel"
+    ],
+    "9": [
+      "mk-3-czerka-stun-cuffs",
+      "mk-9-blastech-weapon-mod",
+      "mk-5-cec-fusion-furnace",
+      "mk-5-akt-stun-gun",
+      "mk-8-taggeco-holo-lens",
+      "mk-7-kyrotech-shock-prod"
     ]
   },
   "pao": {

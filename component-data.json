@@ -1132,6 +1132,39 @@
     "ing4_mult": 0,
     "title": "Mk 12 Czerka Stun Cuffs Prototype Salvage"
   },
+  "mk-12-injector-head": {
+    "ing1": "mk-12-injector-head-salvage",
+    "ing1_mult": 50,
+    "ing2": "",
+    "ing2_mult": 0,
+    "ing3": "",
+    "ing3_mult": 0,
+    "ing4": "",
+    "ing4_mult": 0,
+    "title": "Mk 12 Injector Head"
+  },
+  "mk-12-injector-head-salvage": {
+    "ing1": "",
+    "ing1_mult": 0,
+    "ing2": "",
+    "ing2_mult": 0,
+    "ing3": "",
+    "ing3_mult": 0,
+    "ing4": "",
+    "ing4_mult": 0,
+    "title": "Mk 12 Injector Head Salvage"
+  },
+  "mk-12-power-cell-injector-ionic": {
+    "ing1": "mk-12-injector-head",
+    "ing1_mult": 1,
+    "ing2": "mk-12-armatek-holo-lens-prototype",
+    "ing2_mult": 1,
+    "ing3": "mk-8-neuro-saav-electrobinoculars-prototype",
+    "ing3_mult": 1,
+    "ing4": "mk-7-kyrotech-shock-prod-prototype",
+    "ing4_mult": 2,
+    "title": "Mk 12 Power Cell Injector (Ionic)"
+  },
   "mk-2-akt-stun-gun": {
     "ing1": "mk-1-merr-sonn-shield-generator",
     "ing1_mult": 1,
