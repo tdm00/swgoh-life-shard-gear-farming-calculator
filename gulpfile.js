@@ -1,30 +1,76 @@
-var gulp = require('gulp');
-var uglify = require('gulp-uglify');
-var concat = require('gulp-concat');
+const { src, dest, series } = require('gulp');
+var del = require('del');
 var jsonminify = require('gulp-jsonminify');
 var replace = require('gulp-replace');
 var fs = require('fs');
-var clean = require('gulp-clean');
 
-gulp.task('default', function() {
-  gulp.src('build/farming.html', {read: false})
-    .pipe(clean());
-  gulp.src('build/gear-data.json', {read: false})
-    .pipe(clean());
-  gulp.src('build/component-data.json', {read: false})
-    .pipe(clean());
-  gulp.src('gear-data.json')
+function defaultTask(cb) {
+  // return del([
+  //   // here we use a globbing pattern to match everything inside the `mobile` folder
+  //   'build//**/*',
+  // ]);
+
+  return src('gear-data.json')
     .pipe(jsonminify())
-    .pipe(gulp.dest('build'));
-  gulp.src('component-data.json')
+    .pipe(dest('build'));
+
+  cb();
+}
+
+function json(cb) {
+  src('gear-data.json')
     .pipe(jsonminify())
-    .pipe(gulp.dest('build'));
+    .pipe(dest('build'));
+
+  src('component-data.json')
+    .pipe(jsonminify())
+    .pipe(dest('build'));
+
+  cb();
+}
+
+function css(cb) {
+  src('style.css')
+    .pipe(dest('build'));
+
+  cb();
+}
+
+function js(cb) {
+  src('jquery.js')
+    .pipe(dest('build'));
+
+  cb();
+}
+
+function img(cb) {
+  src('logo.png')
+    .pipe(dest('build'));
+
+  cb();
+}
+
+function clean(cb) {
+  del([
+    // here we use a globbing pattern to match everything inside the `mobile` folder
+    'build//**/*',
+  ]);
+  cb();
+}
+
+function build(cb) {
   var componentData = fs.readFileSync("build/component-data.json", "utf8");
   var gearData = fs.readFileSync("build/gear-data.json", "utf8");
   var characterData = fs.readFileSync("characters.html", "utf8");
-  gulp.src(['./farming.html'])
+
+  src('./farming.html')
     .pipe(replace('$CHARACTERS', characterData))
     .pipe(replace('$MYCOMPONENTS', componentData))
     .pipe(replace('$MYGEAR', gearData))
-    .pipe(gulp.dest('./build/'));
-});
+    .pipe(dest('build'));
+
+  cb();
+}
+
+// exports.default = defaultTask
+exports.default = series(clean, json, css, js, img, build);
